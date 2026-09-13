@@ -1,0 +1,46 @@
+FINAL VALIDATION SUMMARY
+==================================================
+
+FINAL TUNED LQR - SYMMETRIC BUMP
+Peak heave              = 2.1057 mm
+Peak pitch              = 0.11169 deg
+RMS heave acceleration  = 0.97314 m/s^2
+RMS pitch acceleration  = 56.62788 deg/s^2
+Settling time           = 1.4310 s
+Peak actuator force     = 937.90 N
+
+FINAL TUNED LQR - ASYMMETRIC KERB
+Peak heave              = 1.4934 mm
+Peak pitch              = 0.07873 deg
+Peak roll               = 0.14662 deg
+RMS roll acceleration   = 79.64575 deg/s^2
+Roll settling time      = 1.3080 s
+Peak actuator force     = 1109.05 N
+
+IMPROVEMENT VS PASSIVE
+Bump peak heave reduction   = 12.20 %
+Bump peak pitch reduction   = 31.84 %
+Bump settling improvement   = 32.05 %
+Kerb peak heave reduction   = 13.25 %
+Kerb peak pitch reduction   = 32.49 %
+Kerb peak roll reduction    = 28.06 %
+Kerb roll settling improve  = 29.07 %
+
+ROBUSTNESS
+LQR mean sensitivity        = 2.697 %
+Skyhook mean sensitivity    = 2.857 %
+LQR worst robustness force  = 959.89 N
+Skyhook worst robustness force = 1720.70 N
+
+STABILITY
+Nominal LQR margin          = 19.14881 1/s
+Worst-case LQR margin       = 17.07608 1/s
+All tested cases stable     = 1
+
+WORKING RANGE
+Maximum suspension deflection = 20.298 mm
+Maximum suspension velocity   = 2.668 m/s
+Maximum tyre deflection        = 26.392 mm
+Maximum actuator utilization   = 21.87 %
+Minimum predicted tyre load    = -6603.44 N
+Maximum contact-loss time      = 0.2599 %

@@ -1,0 +1,41 @@
+LQR CANDIDATE SYMMETRIC-BUMP SWEEP
+==================================
+
+Q/R ratio = 0.125
+Peak heave = 2.10566 mm
+Peak pitch = 0.111689 deg
+RMS heave acceleration = 0.973144 m/s^2
+RMS pitch acceleration = 56.627880 deg/s^2
+Settling time = 1.43100 s
+Peak actuator force = 937.90 N
+Objective score = 0.774011
+
+Q/R ratio = 0.250
+Peak heave = 2.09317 mm
+Peak pitch = 0.106976 deg
+RMS heave acceleration = 0.993187 m/s^2
+RMS pitch acceleration = 57.538020 deg/s^2
+Settling time = 1.32600 s
+Peak actuator force = 1378.27 N
+Objective score = 0.800807
+
+Q/R ratio = 0.500
+Peak heave = 2.08200 mm
+Peak pitch = 0.103719 deg
+RMS heave acceleration = 1.022930 m/s^2
+RMS pitch acceleration = 58.831724 deg/s^2
+Settling time = 1.33400 s
+Peak actuator force = 1934.37 N
+Objective score = 0.845534
+
+Q/R ratio = 1.000
+Peak heave = 2.09415 mm
+Peak pitch = 0.102337 deg
+RMS heave acceleration = 1.060398 m/s^2
+RMS pitch acceleration = 60.380315 deg/s^2
+Settling time = 1.34500 s
+Peak actuator force = 2539.76 N
+Objective score = 0.899419
+
+Preliminary best Q/R ratio = 0.125
+Best objective score = 0.774011

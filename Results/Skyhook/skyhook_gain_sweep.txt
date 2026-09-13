@@ -1,0 +1,93 @@
+SKYHOOK CONTROLLER GAIN SWEEP
+=============================
+
+C_sky = 500 N*s/m
+Peak Heave = 2.222 mm
+Peak Pitch = 0.1471 deg
+RMS Heave Accel = 0.9402 m/s^2
+RMS Pitch Accel = 55.3260 deg/s^2
+Settling Time = 1.947 s
+Peak Force = 159.73 N
+Max Saturation = 0.000 %
+
+C_sky = 1000 N*s/m
+Peak Heave = 2.066 mm
+Peak Pitch = 0.1346 deg
+RMS Heave Accel = 0.9391 m/s^2
+RMS Pitch Accel = 54.9928 deg/s^2
+Settling Time = 1.798 s
+Peak Force = 320.13 N
+Max Saturation = 0.000 %
+
+C_sky = 1500 N*s/m
+Peak Heave = 1.926 mm
+Peak Pitch = 0.1248 deg
+RMS Heave Accel = 0.9378 m/s^2
+RMS Pitch Accel = 54.7413 deg/s^2
+Settling Time = 1.781 s
+Peak Force = 479.00 N
+Max Saturation = 0.000 %
+
+C_sky = 2000 N*s/m
+Peak Heave = 1.942 mm
+Peak Pitch = 0.1171 deg
+RMS Heave Accel = 0.9362 m/s^2
+RMS Pitch Accel = 54.5279 deg/s^2
+Settling Time = 1.647 s
+Peak Force = 634.65 N
+Max Saturation = 0.000 %
+
+C_sky = 2500 N*s/m
+Peak Heave = 2.020 mm
+Peak Pitch = 0.1106 deg
+RMS Heave Accel = 0.9346 m/s^2
+RMS Pitch Accel = 54.3343 deg/s^2
+Settling Time = 1.639 s
+Peak Force = 787.17 N
+Max Saturation = 0.000 %
+
+C_sky = 3000 N*s/m
+Peak Heave = 2.075 mm
+Peak Pitch = 0.1050 deg
+RMS Heave Accel = 0.9330 m/s^2
+RMS Pitch Accel = 54.1523 deg/s^2
+Settling Time = 1.618 s
+Peak Force = 935.10 N
+Max Saturation = 0.000 %
+
+C_sky = 4000 N*s/m
+Peak Heave = 2.136 mm
+Peak Pitch = 0.0959 deg
+RMS Heave Accel = 0.9298 m/s^2
+RMS Pitch Accel = 53.8091 deg/s^2
+Settling Time = 1.510 s
+Peak Force = 1216.09 N
+Max Saturation = 0.000 %
+
+C_sky = 5000 N*s/m
+Peak Heave = 2.153 mm
+Peak Pitch = 0.0886 deg
+RMS Heave Accel = 0.9267 m/s^2
+RMS Pitch Accel = 53.4838 deg/s^2
+Settling Time = 1.501 s
+Peak Force = 1477.50 N
+Max Saturation = 0.000 %
+
+C_sky = 6000 N*s/m
+Peak Heave = 2.143 mm
+Peak Pitch = 0.0825 deg
+RMS Heave Accel = 0.9239 m/s^2
+RMS Pitch Accel = 53.1702 deg/s^2
+Settling Time = 1.397 s
+Peak Force = 1720.70 N
+Max Saturation = 0.000 %
+
+C_sky = 8000 N*s/m
+Peak Heave = 2.081 mm
+Peak Pitch = 0.0728 deg
+RMS Heave Accel = 0.9188 m/s^2
+RMS Pitch Accel = 52.5628 deg/s^2
+Settling Time = 1.504 s
+Peak Force = 2159.05 N
+Max Saturation = 0.000 %
+

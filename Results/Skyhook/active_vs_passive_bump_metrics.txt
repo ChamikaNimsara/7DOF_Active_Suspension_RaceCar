@@ -1,0 +1,28 @@
+ACTIVE SKYHOOK VS PASSIVE BUMP PERFORMANCE
+==========================================
+
+Peak Heave
+Passive = 2.398203 mm
+Active  = 2.019789 mm
+Improvement = 15.78 %
+
+Peak Pitch
+Passive = 0.163871 deg
+Active  = 0.110611 deg
+Improvement = 32.50 %
+
+RMS Heave Acceleration
+Passive = 0.940961 m/s^2
+Active  = 0.934614 m/s^2
+Improvement = 0.67 %
+
+RMS Pitch Acceleration
+Passive = 55.857622 deg/s^2
+Active  = 54.334288 deg/s^2
+Improvement = 2.73 %
+
+Settling Time
+Passive = 2.106000 s
+Active  = 1.639000 s
+Improvement = 22.17 %
+

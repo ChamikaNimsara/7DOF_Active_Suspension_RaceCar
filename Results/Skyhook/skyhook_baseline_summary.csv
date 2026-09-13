@@ -1,0 +1,9 @@
+Metric,Value,Unit
+Peak Heave,2.01978876303154,mm
+Peak Pitch,0.110610685443437,deg
+RMS Heave Acceleration,0.934614477963504,m/s^2
+RMS Pitch Acceleration,54.3342884404104,deg/s^2
+Settling Time,1.639,s
+Peak Actuator Force,787.17258597027,N
+Mean RMS Actuator Force,43.2506038447711,N
+Maximum Saturation,0,%

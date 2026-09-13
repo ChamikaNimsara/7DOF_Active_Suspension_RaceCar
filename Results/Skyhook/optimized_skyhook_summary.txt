@@ -1,0 +1,37 @@
+PASSIVE vs INITIAL vs OPTIMIZED SKYHOOK
+=======================================
+
+Passive
+Gain = 0 N*s/m
+Peak Heave = 2.3982 mm
+Peak Pitch = 0.16387 deg
+RMS Heave Accel = 0.94096 m/s^2
+RMS Pitch Accel = 55.85762 deg/s^2
+Settling Time = 2.106 s
+Peak Actuator Force = 0.00 N
+
+Initial Skyhook
+Gain = 2500 N*s/m
+Peak Heave = 2.0198 mm
+Peak Pitch = 0.11061 deg
+RMS Heave Accel = 0.93461 m/s^2
+RMS Pitch Accel = 54.33429 deg/s^2
+Settling Time = 1.639 s
+Peak Actuator Force = 787.17 N
+
+Optimized Skyhook
+Gain = 6000 N*s/m
+Peak Heave = 2.1434 mm
+Peak Pitch = 0.08247 deg
+RMS Heave Accel = 0.92388 m/s^2
+RMS Pitch Accel = 53.17016 deg/s^2
+Settling Time = 1.397 s
+Peak Actuator Force = 1720.70 N
+
+Optimized gain = 6000 N*s/m
+
+Peak Heave Improvement = 10.63 %
+Peak Pitch Improvement = 49.67 %
+RMS Heave Accel Improvement = 1.82 %
+RMS Pitch Accel Improvement = 4.81 %
+Settling Improvement = 33.67 %

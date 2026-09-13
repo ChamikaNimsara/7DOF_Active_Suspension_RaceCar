@@ -1,0 +1,31 @@
+PASSIVE 7-DOF SYMMETRIC BUMP METRICS
+=====================================
+
+HEAVE DISPLACEMENT
+Peak positive heave       = 0.002398 m
+Peak negative heave       = -0.000548 m
+Time of positive peak     = 1.074 s
+Time of negative peak     = 1.374 s
+
+HEAVE ACCELERATION
+Peak positive accel       = 12.288 m/s^2
+Peak negative accel       = -10.059 m/s^2
+RMS heave acceleration    = 0.941 m/s^2
+
+PITCH ANGLE
+Peak positive pitch       = 0.1082 deg
+Peak negative pitch       = -0.1639 deg
+Time of positive peak     = 1.036 s
+Time of negative peak     = 1.212 s
+
+PITCH ACCELERATION
+Peak positive pitch acc   = 635.658 deg/s^2
+Peak negative pitch acc   = -633.280 deg/s^2
+RMS pitch acceleration    = 55.858 deg/s^2
+
+ROLL VALIDATION
+Maximum absolute roll     = 0.00000000 deg
+Maximum roll acceleration = 0.00000000 deg/s^2
+
+SETTLING
+Heave settling time       = 2.106 s

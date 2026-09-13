@@ -1,0 +1,20 @@
+PASSIVE 7-DOF SUSPENSION BASELINE
+=================================
+
+Symmetric Bump Test
+-------------------
+Peak absolute heave       = 2.398 mm
+Peak absolute pitch       = 0.1639 deg
+Peak heave acceleration   = 12.288 m/s^2
+RMS heave acceleration    = 0.941 m/s^2
+Peak pitch acceleration   = 635.658 deg/s^2
+RMS pitch acceleration    = 55.858 deg/s^2
+Heave settling time       = 2.106 s
+Maximum roll              = 0.00000000 deg
+
+Frequency Sweep
+---------------
+Body resonance            = 2.850 Hz
+Wheel-hop frequency       = 23.749 Hz
+Body response ratio       = 3.415
+Wheel response ratio      = 1.647

@@ -1,0 +1,9 @@
+ACTUATOR INTERFACE PASSIVE-MODE VERIFICATION
+============================================
+
+Peak heave error       = 0.000000 %
+Peak pitch error       = 0.000000 %
+RMS heave accel error  = 0.000000 %
+RMS pitch accel error  = 0.000000 %
+
+Verification Result: PASS

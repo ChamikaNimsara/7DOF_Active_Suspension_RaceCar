@@ -1,0 +1,31 @@
+FINAL LQR CANDIDATE SELECTION
+=============================
+
+Q/R ratio = 0.125
+Peak heave = 1.49336 mm
+Peak pitch = 0.078727 deg
+Peak roll = 0.146622 deg
+RMS heave accel = 0.617862 m/s^2
+RMS pitch accel = 36.024101 deg/s^2
+RMS roll accel = 79.645753 deg/s^2
+Roll settling = 1.308000 s
+Peak force = 1109.05 N
+Bump objective = 0.774011
+Kerb objective = 0.820384
+Combined objective = 0.797197
+
+Q/R ratio = 0.250
+Peak heave = 1.48086 mm
+Peak pitch = 0.075224 deg
+Peak roll = 0.133327 deg
+RMS heave accel = 0.631318 m/s^2
+RMS pitch accel = 36.641868 deg/s^2
+RMS roll accel = 78.287666 deg/s^2
+Roll settling = 1.314000 s
+Peak force = 1469.13 N
+Bump objective = 0.800807
+Kerb objective = 0.822779
+Combined objective = 0.811793
+
+FINAL Q/R RATIO = 0.125
+FINAL COMBINED OBJECTIVE = 0.797197

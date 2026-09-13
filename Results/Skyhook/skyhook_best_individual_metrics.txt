@@ -1,0 +1,27 @@
+SKYHOOK GAIN SWEEP - BEST INDIVIDUAL METRICS
+============================================
+
+Peak Heave
+Best Gain  = 1500 N*s/m
+Best Value = 1.925840 mm
+
+Peak Pitch
+Best Gain  = 8000 N*s/m
+Best Value = 0.072751 deg
+
+RMS Heave Acceleration
+Best Gain  = 8000 N*s/m
+Best Value = 0.918777 m/s^2
+
+RMS Pitch Acceleration
+Best Gain  = 8000 N*s/m
+Best Value = 52.562757 deg/s^2
+
+Settling Time
+Best Gain  = 6000 N*s/m
+Best Value = 1.397000 s
+
+Peak Actuator Force
+Best Gain  = 500 N*s/m
+Best Value = 159.729608 N
+

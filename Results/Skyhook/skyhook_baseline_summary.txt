@@ -1,0 +1,21 @@
+INITIAL SKYHOOK CONTROLLER BASELINE
+===================================
+
+C_sky = 2500.0 N*s/m
+Actuator limit = 3000 N
+
+Peak heave = 2.020 mm
+Peak pitch = 0.1106 deg
+RMS heave acceleration = 0.935 m/s^2
+RMS pitch acceleration = 54.334 deg/s^2
+Settling time = 1.639 s
+
+Peak actuator force = 787.17 N
+Mean RMS actuator force = 43.25 N
+Maximum saturation = 0.000 %
+
+Peak heave improvement = 15.78 %
+Peak pitch improvement = 32.50 %
+RMS heave acceleration improvement = 0.67 %
+RMS pitch acceleration improvement = 2.73 %
+Settling time improvement = 22.17 %

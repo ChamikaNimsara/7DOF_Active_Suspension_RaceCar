@@ -1,0 +1,27 @@
+PASSIVE vs OPTIMIZED SKYHOOK vs INITIAL LQR
+===========================================
+
+Passive
+Peak Heave = 2.3982 mm
+Peak Pitch = 0.16387 deg
+RMS Heave Accel = 0.94096 m/s^2
+RMS Pitch Accel = 55.85762 deg/s^2
+Settling Time = 2.106 s
+Peak Actuator Force = 0.00 N
+
+Optimized Skyhook
+Peak Heave = 2.1434 mm
+Peak Pitch = 0.08247 deg
+RMS Heave Accel = 0.92388 m/s^2
+RMS Pitch Accel = 53.17016 deg/s^2
+Settling Time = 1.397 s
+Peak Actuator Force = 1720.70 N
+
+Initial LQR
+Peak Heave = 2.0942 mm
+Peak Pitch = 0.10234 deg
+RMS Heave Accel = 1.06040 m/s^2
+RMS Pitch Accel = 60.38031 deg/s^2
+Settling Time = 1.345 s
+Peak Actuator Force = 2539.76 N
+

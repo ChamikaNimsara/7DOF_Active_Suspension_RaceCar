@@ -1,0 +1,7 @@
+Metric,BestGain_Nsm,BestValue,Unit
+Peak Heave,1500,1.92584032506663,mm
+Peak Pitch,8000,0.072750949856676,deg
+RMS Heave Acceleration,8000,0.918777404966557,m/s^2
+RMS Pitch Acceleration,8000,52.5627568983564,deg/s^2
+Settling Time,6000,1.397,s
+Peak Actuator Force,500,159.729607673013,N

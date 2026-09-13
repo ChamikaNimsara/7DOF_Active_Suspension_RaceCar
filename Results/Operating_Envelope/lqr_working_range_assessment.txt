@@ -1,0 +1,67 @@
+FINAL TUNED LQR - WORKING RANGE ASSESSMENT
+==========================================
+
+Operating condition = 144 km/h asymmetric kerb
+Vehicle speed = 40.00 m/s
+Kerb height = 0.0300 m
+Kerb duration = 0.015000 s
+Rear axle delay = 0.087500 s
+
+WORKING RANGE RESULTS
+------------------------------------------
+
+FL corner
+Peak suspension deflection = 20.2982 mm
+Peak suspension velocity = 2.66773 m/s
+Peak tyre deflection = 25.9009 mm
+Peak actuator force = 655.96 N
+Actuator utilization = 21.87 %
+
+FR corner
+Peak suspension deflection = 1.8189 mm
+Peak suspension velocity = 0.17679 m/s
+Peak tyre deflection = 1.7134 mm
+Peak actuator force = 566.14 N
+Actuator utilization = 18.87 %
+
+RL corner
+Peak suspension deflection = 17.7967 mm
+Peak suspension velocity = 2.30578 m/s
+Peak tyre deflection = 26.3924 mm
+Peak actuator force = 637.54 N
+Actuator utilization = 21.25 %
+
+RR corner
+Peak suspension deflection = 1.3914 mm
+Peak suspension velocity = 0.09881 m/s
+Peak tyre deflection = 1.2845 mm
+Peak actuator force = 382.24 N
+Actuator utilization = 12.74 %
+
+
+TYRE CONTACT RESULTS
+------------------------------------------
+
+FL corner
+Minimum normal load = -6603.44 N
+Maximum normal load = 12377.72 N
+Contact-loss duration = 0.25995 %
+
+FR corner
+Minimum normal load = 1680.18 N
+Maximum normal load = 2702.74 N
+Contact-loss duration = 0.00000 %
+
+RL corner
+Minimum normal load = -5569.77 N
+Maximum normal load = 12708.86 N
+Contact-loss duration = 0.25995 %
+
+RR corner
+Minimum normal load = 1815.53 N
+Maximum normal load = 2665.68 N
+Contact-loss duration = 0.00000 %
+
+Minimum normal load across vehicle = -6603.44 N
+Maximum contact-loss duration = 0.25995 %
+Tyre contact result = WARNING - one or more tyres reach zero/negative predicted normal load.

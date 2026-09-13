@@ -1,0 +1,13 @@
+Indicator,Value
+LQR Mean Parameter Sensitivity [%],2.69658063414071
+Skyhook Mean Parameter Sensitivity [%],2.85703934999314
+LQR Worst Robustness Peak Force [N],959.891882133659
+Skyhook Worst Robustness Peak Force [N],1720.69563487039
+Nominal LQR Stability Margin [1/s],19.1488081931742
+Worst-Case LQR Stability Margin [1/s],17.0760791434472
+Maximum Suspension Deflection [mm],20.2981688651505
+Maximum Suspension Velocity [m/s],2.66773320954444
+Maximum Tyre Deflection [mm],26.3924092082406
+Maximum Actuator Utilization [%],21.8653732934874
+Minimum Predicted Tyre Load [N],-6603.43921351906
+Maximum Predicted Contact-Loss Time [%],0.25994801039792

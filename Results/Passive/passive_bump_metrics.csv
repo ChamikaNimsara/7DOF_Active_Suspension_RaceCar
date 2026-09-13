@@ -1,0 +1,18 @@
+Metric,Value,Unit
+Peak Positive Heave,0.00239820265655923,m
+Peak Negative Heave,-0.000547503025040472,m
+Time Positive Heave Peak,1.074,s
+Time Negative Heave Peak,1.374,s
+Peak Positive Heave Acceleration,12.2884709858218,m/s^2
+Peak Negative Heave Acceleration,-10.0589039029044,m/s^2
+RMS Heave Acceleration,0.940961436953925,m/s^2
+Peak Positive Pitch,0.10818257982995,deg
+Peak Negative Pitch,-0.163870961677509,deg
+Time Positive Pitch Peak,1.036,s
+Time Negative Pitch Peak,1.212,s
+Peak Positive Pitch Acceleration,635.657852688838,deg/s^2
+Peak Negative Pitch Acceleration,-633.279669700962,deg/s^2
+RMS Pitch Acceleration,55.857621712667,deg/s^2
+Maximum Absolute Roll,0,deg
+Maximum Absolute Roll Acceleration,0,deg/s^2
+Heave Settling Time,2.106,s

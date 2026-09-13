@@ -1,0 +1,64 @@
+FINAL ACTIVE SUSPENSION CONTROLLER BENCHMARK
+============================================
+
+Final tuned LQR Q/R ratio = 0.125
+
+SYMMETRIC BUMP
+--------------------------------------------
+Passive
+Peak heave = 2.3982 mm
+Peak pitch = 0.16387 deg
+RMS heave accel = 0.94096 m/s^2
+RMS pitch accel = 55.85762 deg/s^2
+Settling time = 2.106 s
+Peak actuator force = 0.00 N
+
+Optimized Skyhook
+Peak heave = 2.1434 mm
+Peak pitch = 0.08247 deg
+RMS heave accel = 0.92388 m/s^2
+RMS pitch accel = 53.17016 deg/s^2
+Settling time = 1.397 s
+Peak actuator force = 1720.70 N
+
+Final Tuned LQR
+Peak heave = 2.1057 mm
+Peak pitch = 0.11169 deg
+RMS heave accel = 0.97314 m/s^2
+RMS pitch accel = 56.62788 deg/s^2
+Settling time = 1.431 s
+Peak actuator force = 937.90 N
+
+
+ASYMMETRIC KERB
+--------------------------------------------
+Passive
+Peak heave = 1.7215 mm
+Peak pitch = 0.11662 deg
+Peak roll = 0.20380 deg
+RMS heave accel = 0.59437 m/s^2
+RMS pitch accel = 35.50826 deg/s^2
+RMS roll accel = 84.01030 deg/s^2
+Roll settling = 1.844 s
+Peak actuator force = 0.00 N
+
+Optimized Skyhook
+Peak heave = 1.5172 mm
+Peak pitch = 0.05755 deg
+Peak roll = 0.14509 deg
+RMS heave accel = 0.58614 m/s^2
+RMS pitch accel = 33.85664 deg/s^2
+RMS roll accel = 78.60100 deg/s^2
+Roll settling = 1.455 s
+Peak actuator force = 1903.02 N
+
+Final Tuned LQR
+Peak heave = 1.4934 mm
+Peak pitch = 0.07873 deg
+Peak roll = 0.14662 deg
+RMS heave accel = 0.61786 m/s^2
+RMS pitch accel = 36.02410 deg/s^2
+RMS roll accel = 79.64575 deg/s^2
+Roll settling = 1.308 s
+Peak actuator force = 1109.05 N
+

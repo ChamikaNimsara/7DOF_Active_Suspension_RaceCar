@@ -1,0 +1,115 @@
+LQR Q/R WEIGHT SWEEP
+====================
+
+Case 1
+Q scale = 0.5000
+R scale = 1.0000
+Max closed-loop pole real part = -33.858923
+Stable = 1
+Gain Frobenius norm = 1.206502e+06
+
+Case 2
+Q scale = 0.5000
+R scale = 2.0000
+Max closed-loop pole real part = -25.533528
+Stable = 1
+Gain Frobenius norm = 7.843570e+05
+
+Case 3
+Q scale = 0.5000
+R scale = 4.0000
+Max closed-loop pole real part = -19.148808
+Stable = 1
+Gain Frobenius norm = 4.974768e+05
+
+Case 4
+Q scale = 0.5000
+R scale = 8.0000
+Max closed-loop pole real part = -14.392747
+Stable = 1
+Gain Frobenius norm = 3.067146e+05
+
+Case 5
+Q scale = 1.0000
+R scale = 1.0000
+Max closed-loop pole real part = -31.330785
+Stable = 1
+Gain Frobenius norm = 1.818741e+06
+
+Case 6
+Q scale = 1.0000
+R scale = 2.0000
+Max closed-loop pole real part = -33.858923
+Stable = 1
+Gain Frobenius norm = 1.206502e+06
+
+Case 7
+Q scale = 1.0000
+R scale = 4.0000
+Max closed-loop pole real part = -25.533528
+Stable = 1
+Gain Frobenius norm = 7.843570e+05
+
+Case 8
+Q scale = 1.0000
+R scale = 8.0000
+Max closed-loop pole real part = -19.148808
+Stable = 1
+Gain Frobenius norm = 4.974768e+05
+
+Case 9
+Q scale = 2.0000
+R scale = 1.0000
+Max closed-loop pole real part = -27.698770
+Stable = 1
+Gain Frobenius norm = 2.698437e+06
+
+Case 10
+Q scale = 2.0000
+R scale = 2.0000
+Max closed-loop pole real part = -31.330785
+Stable = 1
+Gain Frobenius norm = 1.818741e+06
+
+Case 11
+Q scale = 2.0000
+R scale = 4.0000
+Max closed-loop pole real part = -33.858923
+Stable = 1
+Gain Frobenius norm = 1.206502e+06
+
+Case 12
+Q scale = 2.0000
+R scale = 8.0000
+Max closed-loop pole real part = -25.533528
+Stable = 1
+Gain Frobenius norm = 7.843570e+05
+
+Case 13
+Q scale = 4.0000
+R scale = 1.0000
+Max closed-loop pole real part = -26.464506
+Stable = 1
+Gain Frobenius norm = 3.954734e+06
+
+Case 14
+Q scale = 4.0000
+R scale = 2.0000
+Max closed-loop pole real part = -27.698770
+Stable = 1
+Gain Frobenius norm = 2.698437e+06
+
+Case 15
+Q scale = 4.0000
+R scale = 4.0000
+Max closed-loop pole real part = -31.330785
+Stable = 1
+Gain Frobenius norm = 1.818741e+06
+
+Case 16
+Q scale = 4.0000
+R scale = 8.0000
+Max closed-loop pole real part = -33.858923
+Stable = 1
+Gain Frobenius norm = 1.206502e+06
+

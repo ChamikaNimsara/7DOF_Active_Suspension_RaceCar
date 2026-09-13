@@ -1,0 +1,19 @@
+ASYMMETRIC KERB TEST - FINAL CONCLUSIONS
+========================================
+
+The optimized Skyhook controller was evaluated using a 30 mm left-side kerb excitation at 20 m/s.
+
+Peak roll reduction: 28.81 %
+Peak pitch reduction: 50.65 %
+Peak heave reduction: 11.87 %
+Roll settling-time improvement: 21.10 %
+RMS roll acceleration reduction: 6.44 %
+RMS pitch acceleration reduction: 4.65 %
+RMS heave acceleration reduction: 1.38 %
+
+Peak actuator force: 1903.02 N
+Mean RMS actuator force: 83.71 N
+Maximum actuator saturation: 0.000 %
+
+Interpretation:
+The optimized Skyhook controller provides strong body-attitude control under asymmetric kerb excitation, particularly in pitch and roll. Improvements in body acceleration are smaller, which indicates that the controller is more effective at reducing body motion than improving ride acceleration. The actuator force remains within the imposed 3000 N limit with no saturation.

@@ -1,0 +1,12 @@
+INITIAL LQR SYMMETRIC-BUMP RESULTS
+==================================
+
+Peak heave = 2.105661 mm
+Peak pitch = 0.111689 deg
+Maximum roll = 0.000000000000 deg
+RMS heave acceleration = 0.973144 m/s^2
+RMS pitch acceleration = 56.627880 deg/s^2
+Settling time = 1.431000 s
+Peak actuator force = 937.900040 N
+Mean RMS actuator force = 52.664670 N
+Maximum saturation = 0.000000 %

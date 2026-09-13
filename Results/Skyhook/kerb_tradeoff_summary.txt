@@ -1,0 +1,13 @@
+KERB TEST CONTROL TRADE-OFF SUMMARY
+===================================
+
+Peak Heave Reduction = 11.8693 %
+Peak Pitch Reduction = 50.6520 %
+Peak Roll Reduction = 28.8078 %
+RMS Heave Acceleration Reduction = 1.3848 %
+RMS Pitch Acceleration Reduction = 4.6514 %
+RMS Roll Acceleration Reduction = 6.4388 %
+Roll Settling Time Improvement = 21.0954 %
+Peak Actuator Force = 1903.0232 N
+Mean RMS Actuator Force = 83.7074 N
+Maximum Saturation = 0.0000 %

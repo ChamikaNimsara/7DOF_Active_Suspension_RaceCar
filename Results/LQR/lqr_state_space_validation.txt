@@ -1,0 +1,46 @@
+7-DOF LQR STATE-SPACE VALIDATION
+================================
+
+Number of states = 14
+Controllability rank = 8
+Fully controllable = 0
+
+Open-loop stable = 1
+
+OPEN-LOOP MODES
+---------------
+Mode 1
+Frequency = 2.949616 Hz
+Damping ratio = 0.153854
+Pole = -2.851383 +18.312323j
+
+Mode 2
+Frequency = 4.065413 Hz
+Damping ratio = 0.193339
+Pole = -4.938605 +25.061783j
+
+Mode 3
+Frequency = 4.446342 Hz
+Damping ratio = 0.214994
+Pole = -6.006335 +27.283887j
+
+Mode 4
+Frequency = 26.546949 Hz
+Damping ratio = 0.321600
+Pole = -53.642762 +157.938259j
+
+Mode 5
+Frequency = 26.550953 Hz
+Damping ratio = 0.320707
+Pole = -53.501855 +158.012607j
+
+Mode 6
+Frequency = 27.799646 Hz
+Damping ratio = 0.274530
+Pole = -47.952255 +167.959236j
+
+Mode 7
+Frequency = 27.928210 Hz
+Damping ratio = 0.269513
+Pole = -47.293714 +168.984837j
+

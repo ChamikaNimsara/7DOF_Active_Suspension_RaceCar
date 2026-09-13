@@ -1,0 +1,95 @@
+FINAL TUNED LQR - PARAMETER ROBUSTNESS SWEEP
+============================================
+
+Test condition: Symmetric bump at 72.0 km/h
+
+CASE 1 - Nominal
+Peak heave = 2.1057 mm
+Peak pitch = 0.11169 deg
+RMS heave acceleration = 0.97314 m/s^2
+RMS pitch acceleration = 56.62788 deg/s^2
+Settling time = 1.4300 s
+Peak actuator force = 937.90 N
+Mean RMS actuator force = 52.66 N
+Maximum saturation = 0.0000 %
+Stable = 1
+Peak heave change vs nominal = 0.00 %
+Peak pitch change vs nominal = 0.00 %
+RMS heave acceleration change = 0.00 %
+RMS pitch acceleration change = 0.00 %
+Peak actuator force change = 0.00 %
+
+CASE 2 - +10% Sprung Mass
+Peak heave = 1.9596 mm
+Peak pitch = 0.11145 deg
+RMS heave acceleration = 0.88762 m/s^2
+RMS pitch acceleration = 56.62359 deg/s^2
+Settling time = 1.4470 s
+Peak actuator force = 910.78 N
+Mean RMS actuator force = 51.20 N
+Maximum saturation = 0.0000 %
+Stable = 1
+Peak heave change vs nominal = -6.94 %
+Peak pitch change vs nominal = -0.22 %
+RMS heave acceleration change = -8.79 %
+RMS pitch acceleration change = -0.01 %
+Peak actuator force change = -2.89 %
+
+CASE 3 - -10% Suspension Stiffness
+Peak heave = 2.0664 mm
+Peak pitch = 0.10910 deg
+RMS heave acceleration = 0.96529 m/s^2
+RMS pitch acceleration = 56.15389 deg/s^2
+Settling time = 1.4300 s
+Peak actuator force = 878.62 N
+Mean RMS actuator force = 48.60 N
+Maximum saturation = 0.0000 %
+Stable = 1
+Peak heave change vs nominal = -1.86 %
+Peak pitch change vs nominal = -2.32 %
+RMS heave acceleration change = -0.81 %
+RMS pitch acceleration change = -0.84 %
+Peak actuator force change = -6.32 %
+
+CASE 4 - -10% Damping
+Peak heave = 2.0583 mm
+Peak pitch = 0.11006 deg
+RMS heave acceleration = 0.95381 m/s^2
+RMS pitch acceleration = 55.50883 deg/s^2
+Settling time = 1.4340 s
+Peak actuator force = 959.89 N
+Mean RMS actuator force = 52.91 N
+Maximum saturation = 0.0000 %
+Stable = 1
+Peak heave change vs nominal = -2.25 %
+Peak pitch change vs nominal = -1.45 %
+RMS heave acceleration change = -1.99 %
+RMS pitch acceleration change = -1.98 %
+Peak actuator force change = 2.34 %
+
+CASE 5 - -10% Tyre Stiffness
+Peak heave = 2.0777 mm
+Peak pitch = 0.11029 deg
+RMS heave acceleration = 0.90058 m/s^2
+RMS pitch acceleration = 52.39138 deg/s^2
+Settling time = 1.4340 s
+Peak actuator force = 896.15 N
+Mean RMS actuator force = 51.79 N
+Maximum saturation = 0.0000 %
+Stable = 1
+Peak heave change vs nominal = -1.33 %
+Peak pitch change vs nominal = -1.25 %
+RMS heave acceleration change = -7.46 %
+RMS pitch acceleration change = -7.48 %
+Peak actuator force change = -4.45 %
+
+
+OVERALL RESULT
+--------------
+PASS - all tested parameter-variation cases remained bounded and stable.
+
+Worst peak heave: Nominal = 2.1057 mm
+Worst peak pitch: Nominal = 0.11169 deg
+Worst RMS heave acceleration: Nominal = 0.9731 m/s^2
+Worst RMS pitch acceleration: Nominal = 56.6279 deg/s^2
+Highest actuator demand: -10% Damping = 959.89 N

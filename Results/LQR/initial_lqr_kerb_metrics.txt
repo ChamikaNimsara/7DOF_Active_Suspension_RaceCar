@@ -1,0 +1,43 @@
+INITIAL LQR ASYMMETRIC KERB RESULTS
+===================================
+
+Peak Heave
+Passive = 1.721526 mm
+Skyhook = 1.517192 mm
+Initial LQR = 1.477576 mm
+
+Peak Pitch
+Passive = 0.116620 deg
+Skyhook = 0.057550 deg
+Initial LQR = 0.071736 deg
+
+Peak Roll
+Passive = 0.203801 deg
+Skyhook = 0.145090 deg
+Initial LQR = 0.113838 deg
+
+RMS Heave Acceleration
+Passive = 0.594374 m/s^2
+Skyhook = 0.586143 m/s^2
+Initial LQR = 0.676234 m/s^2
+
+RMS Pitch Acceleration
+Passive = 35.508264 deg/s^2
+Skyhook = 33.856637 deg/s^2
+Initial LQR = 38.552833 deg/s^2
+
+RMS Roll Acceleration
+Passive = 84.010299 deg/s^2
+Skyhook = 78.601002 deg/s^2
+Initial LQR = 75.557470 deg/s^2
+
+Roll Settling Time
+Passive = 1.844000 s
+Skyhook = 1.455000 s
+Initial LQR = 1.316000 s
+
+Peak Actuator Force
+Passive = 0.000000 N
+Skyhook = 1903.023183 N
+Initial LQR = 2524.421827 N
+

@@ -1,0 +1,10 @@
+PASSIVE 7-DOF FREQUENCY SWEEP RESULTS
+======================================
+
+Sweep range              = 0.50 - 25.00 Hz
+Dominant body resonance  = 2.850 Hz
+Dominant wheel response  = 23.749 Hz
+Body response ratio      = 3.415
+Wheel response ratio     = 1.647
+Maximum pitch            = 0.15738512 deg
+Maximum roll             = 0.00000000 deg

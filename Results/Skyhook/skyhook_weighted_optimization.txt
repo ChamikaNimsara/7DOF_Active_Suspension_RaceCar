@@ -1,0 +1,21 @@
+SKYHOOK WEIGHTED GAIN OPTIMIZATION
+==================================
+
+Weights:
+Peak Heave             = 0.20
+Peak Pitch             = 0.20
+RMS Heave Acceleration = 0.20
+RMS Pitch Acceleration = 0.15
+Settling Time          = 0.15
+Actuator Effort        = 0.10
+
+Optimal Gain = 6000 N*s/m
+Objective Score = 0.775415
+
+Peak Heave = 2.1434 mm
+Peak Pitch = 0.08247 deg
+RMS Heave Accel = 0.92388 m/s^2
+RMS Pitch Accel = 53.17016 deg/s^2
+Settling Time = 1.397 s
+Peak Actuator Force = 1720.70 N
+Saturation = 0.000 %

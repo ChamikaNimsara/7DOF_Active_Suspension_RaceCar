@@ -1,0 +1,11 @@
+PASSIVE ASYMMETRIC KERB RESULTS
+===============================
+
+Peak Heave = 1.721526 mm
+Peak Pitch = 0.116620 deg
+Peak Roll = 0.203801 deg
+RMS Heave Acceleration = 0.594374 m/s^2
+RMS Pitch Acceleration = 35.508264 deg/s^2
+RMS Roll Acceleration = 84.010299 deg/s^2
+Peak Roll Acceleration = 994.610591 deg/s^2
+Roll Settling Time = 1.844000 s

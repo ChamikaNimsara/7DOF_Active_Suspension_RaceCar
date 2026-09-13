@@ -1,0 +1,117 @@
+FINAL CONTROLLER ROBUSTNESS COMPARISON
+======================================
+
+Symmetric bump speed = 72.0 km/h
+
+FINAL TUNED LQR
+--------------------------------------
+Nominal
+Peak heave = 2.1057 mm
+Peak pitch = 0.11169 deg
+RMS heave acceleration = 0.97314 m/s^2
+RMS pitch acceleration = 56.62788 deg/s^2
+Settling time = 1.4300 s
+Peak actuator force = 937.90 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
++10% Sprung Mass
+Peak heave = 1.9596 mm
+Peak pitch = 0.11145 deg
+RMS heave acceleration = 0.88762 m/s^2
+RMS pitch acceleration = 56.62359 deg/s^2
+Settling time = 1.4470 s
+Peak actuator force = 910.78 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+-10% Suspension Stiffness
+Peak heave = 2.0664 mm
+Peak pitch = 0.10910 deg
+RMS heave acceleration = 0.96529 m/s^2
+RMS pitch acceleration = 56.15389 deg/s^2
+Settling time = 1.4300 s
+Peak actuator force = 878.62 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+-10% Damping
+Peak heave = 2.0583 mm
+Peak pitch = 0.11006 deg
+RMS heave acceleration = 0.95381 m/s^2
+RMS pitch acceleration = 55.50883 deg/s^2
+Settling time = 1.4340 s
+Peak actuator force = 959.89 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+-10% Tyre Stiffness
+Peak heave = 2.0777 mm
+Peak pitch = 0.11029 deg
+RMS heave acceleration = 0.90058 m/s^2
+RMS pitch acceleration = 52.39138 deg/s^2
+Settling time = 1.4340 s
+Peak actuator force = 896.15 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+Mean absolute sensitivity = 2.6966 %
+
+OPTIMIZED SKYHOOK
+--------------------------------------
+Nominal
+Peak heave = 2.1434 mm
+Peak pitch = 0.08247 deg
+RMS heave acceleration = 0.92388 m/s^2
+RMS pitch acceleration = 53.17016 deg/s^2
+Settling time = 1.3960 s
+Peak actuator force = 1720.70 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
++10% Sprung Mass
+Peak heave = 2.0238 mm
+Peak pitch = 0.08232 deg
+RMS heave acceleration = 0.84074 m/s^2
+RMS pitch acceleration = 53.16626 deg/s^2
+Settling time = 1.3950 s
+Peak actuator force = 1665.07 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+-10% Suspension Stiffness
+Peak heave = 2.1099 mm
+Peak pitch = 0.07905 deg
+RMS heave acceleration = 0.91938 m/s^2
+RMS pitch acceleration = 53.03225 deg/s^2
+Settling time = 1.4270 s
+Peak actuator force = 1681.23 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+-10% Damping
+Peak heave = 2.0852 mm
+Peak pitch = 0.07966 deg
+RMS heave acceleration = 0.89575 m/s^2
+RMS pitch acceleration = 51.37936 deg/s^2
+Settling time = 1.3930 s
+Peak actuator force = 1660.05 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+-10% Tyre Stiffness
+Peak heave = 2.1211 mm
+Peak pitch = 0.08133 deg
+RMS heave acceleration = 0.85262 m/s^2
+RMS pitch acceleration = 48.92364 deg/s^2
+Settling time = 1.3940 s
+Peak actuator force = 1635.01 N
+Maximum saturation = 0.0000 %
+Stable = 1
+
+Mean absolute sensitivity = 2.8570 %
+
+MOST ROBUST CONTROLLER
+--------------------------------------
+Final Tuned LQR
+Mean absolute sensitivity = 2.6966 %

@@ -1,0 +1,16 @@
+MOTORSPORT OPERATING-CONDITION CONCLUSIONS
+==========================================
+
+The final tuned LQR controller remained well within the defined 3000 N actuator-force limit throughout the evaluated operating conditions.
+
+At the 144 km/h asymmetric kerb condition, maximum actuator utilization was 21.87 %, with a peak suspension deflection of 20.298 mm and peak relative suspension velocity of 2.668 m/s.
+
+Increasing vehicle speed from 72 km/h to 144 km/h for the fixed-length kerb reduced peak heave by 38.24 %, peak pitch by 48.25 %, peak roll by 44.56 % and peak actuator force by 40.85 %.
+
+This reduction in sprung-mass response should not be interpreted as the high-speed kerb being less mechanically severe. The shorter road-input duration produced high suspension velocities and strong wheel-level transient behaviour.
+
+The linear tyre model predicted a minimum normal load of -6603.44 N and temporary unloading for up to 0.2599 % of the simulation. Negative predicted tyre loads are non-physical and indicate that the linear tyre model has exceeded its valid operating region.
+
+For future high-fidelity kerb-impact analysis, the model should therefore be extended with unilateral tyre contact, nonlinear tyre stiffness and potentially nonlinear damper behaviour.
+
+Within the valid linear operating region, the tuned LQR controller demonstrates effective control of sprung-mass motion while requiring substantially less than the available actuator-force capability.

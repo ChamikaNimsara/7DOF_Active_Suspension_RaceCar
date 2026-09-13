@@ -1,0 +1,9 @@
+Metric,Value,Unit
+Peak Heave,1.72152561884788,mm
+Peak Pitch,0.11661991134571,deg
+Peak Roll,0.203800913153223,deg
+RMS Heave Acceleration,0.594374010750746,m/s^2
+RMS Pitch Acceleration,35.5082641183634,deg/s^2
+RMS Roll Acceleration,84.0102988713093,deg/s^2
+Peak Roll Acceleration,994.610591238924,deg/s^2
+Roll Settling Time,1.844,s

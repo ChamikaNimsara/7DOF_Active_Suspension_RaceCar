@@ -1,0 +1,36 @@
+OPTIMIZED SKYHOOK VERIFICATION
+==============================
+
+C_sky = 6000 N*s/m
+
+Peak Heave
+Expected = 2.143356
+Current  = 2.143356
+Error    = 0.000000 %
+
+Peak Pitch
+Expected = 0.082475
+Current  = 0.082475
+Error    = 0.000000 %
+
+RMS Heave Acceleration
+Expected = 0.923877
+Current  = 0.923877
+Error    = 0.000000 %
+
+RMS Pitch Acceleration
+Expected = 53.170158
+Current  = 53.170158
+Error    = 0.000000 %
+
+Settling Time
+Expected = 1.397000
+Current  = 1.397000
+Error    = 0.000000 %
+
+Peak Actuator Force
+Expected = 1720.695635
+Current  = 1720.695635
+Error    = 0.000000 %
+
+RESULT: PASS

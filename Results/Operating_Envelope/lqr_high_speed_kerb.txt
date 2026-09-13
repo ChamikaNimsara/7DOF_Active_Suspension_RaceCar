@@ -1,0 +1,31 @@
+FINAL TUNED LQR - HIGH SPEED KERB
+================================
+
+Speed = 72.0 km/h
+Kerb duration = 0.030000 s
+Rear delay = 0.175000 s
+Peak heave = 1.49336 mm
+Peak pitch = 0.078727 deg
+Peak roll = 0.146622 deg
+RMS heave accel = 0.617862 m/s^2
+RMS pitch accel = 36.024101 deg/s^2
+RMS roll accel = 79.645753 deg/s^2
+Roll settling time = 1.3080 s
+Peak actuator force = 1109.05 N
+Mean RMS actuator force = 53.95 N
+Maximum saturation = 0.0000 %
+
+Speed = 144.0 km/h
+Kerb duration = 0.015000 s
+Rear delay = 0.087500 s
+Peak heave = 0.92236 mm
+Peak pitch = 0.040741 deg
+Peak roll = 0.081291 deg
+RMS heave accel = 0.434776 m/s^2
+RMS pitch accel = 25.393178 deg/s^2
+RMS roll accel = 55.391614 deg/s^2
+Roll settling time = 1.2110 s
+Peak actuator force = 655.96 N
+Mean RMS actuator force = 31.15 N
+Maximum saturation = 0.0000 %
+

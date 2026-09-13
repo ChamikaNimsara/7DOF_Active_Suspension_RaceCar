@@ -1,0 +1,53 @@
+FINAL TUNED LQR CLOSED-LOOP STABILITY VERIFICATION
+==================================================
+
+Nominal open-loop stable   = 1
+Nominal closed-loop stable = 1
+Maximum closed-loop pole real part = -19.14880819 1/s
+Nominal stability margin = 19.14880819 1/s
+
+CLOSED-LOOP POLES
+--------------------------------------------------
+Pole  1 = -19.14880819 +19.74507275j
+Pole  2 = -19.14880819 -19.74507275j
+Pole  3 = -24.12029002 +25.17733221j
+Pole  4 = -24.12029002 -25.17733221j
+Pole  5 = -57.86146672 +155.83722299j
+Pole  6 = -57.86146672 -155.83722299j
+Pole  7 = -54.37276533 +165.74374394j
+Pole  8 = -54.37276533 -165.74374394j
+Pole  9 = -53.58751071 +153.29464709j
+Pole 10 = -53.58751071 -153.29464709j
+Pole 11 = -53.44797006 +166.38227426j
+Pole 12 = -53.44797006 -166.38227426j
+Pole 13 = -51.43357020 +10.14721739j
+Pole 14 = -51.43357020 -10.14721739j
+
+CLOSED-LOOP MODAL DATA
+--------------------------------------------------
+Mode  1 | f_n = 4.37761 Hz | zeta = 0.69618 | pole = -19.14880819 +19.74507275j
+Mode  2 | f_n = 4.37761 Hz | zeta = 0.69618 | pole = -19.14880819 -19.74507275j
+Mode  3 | f_n = 5.54921 Hz | zeta = 0.69179 | pole = -24.12029002 +25.17733221j
+Mode  4 | f_n = 5.54921 Hz | zeta = 0.69179 | pole = -24.12029002 -25.17733221j
+Mode  5 | f_n = 8.34369 Hz | zeta = 0.98109 | pole = -51.43357020 +10.14721739j
+Mode  6 | f_n = 8.34369 Hz | zeta = 0.98109 | pole = -51.43357020 -10.14721739j
+Mode  7 | f_n = 25.84535 Hz | zeta = 0.32999 | pole = -53.58751071 +153.29464709j
+Mode  8 | f_n = 25.84535 Hz | zeta = 0.32999 | pole = -53.58751071 -153.29464709j
+Mode  9 | f_n = 26.45670 Hz | zeta = 0.34808 | pole = -57.86146672 +155.83722299j
+Mode 10 | f_n = 26.45670 Hz | zeta = 0.34808 | pole = -57.86146672 -155.83722299j
+Mode 11 | f_n = 27.76211 Hz | zeta = 0.31171 | pole = -54.37276533 +165.74374394j
+Mode 12 | f_n = 27.76211 Hz | zeta = 0.31171 | pole = -54.37276533 -165.74374394j
+Mode 13 | f_n = 27.81332 Hz | zeta = 0.30584 | pole = -53.44797006 +166.38227426j
+Mode 14 | f_n = 27.81332 Hz | zeta = 0.30584 | pole = -53.44797006 -166.38227426j
+
+PARAMETER-UNCERTAINTY STABILITY
+--------------------------------------------------
+Nominal | Stable = 1 | Max real pole = -19.14880819 1/s | Margin = 19.14880819 1/s | Min zeta = 0.30584
++10% Sprung Mass | Stable = 1 | Max real pole = -17.07607914 1/s | Margin = 17.07607914 1/s | Min zeta = 0.30584
+-10% Suspension Stiffness | Stable = 1 | Max real pole = -19.56158426 1/s | Margin = 19.56158426 1/s | Min zeta = 0.30738
+-10% Damping | Stable = 1 | Max real pole = -18.64228981 1/s | Margin = 18.64228981 1/s | Min zeta = 0.27725
+-10% Tyre Stiffness | Stable = 1 | Max real pole = -18.60805208 1/s | Margin = 18.60805208 1/s | Min zeta = 0.32113
+
+Worst stability case = +10% Sprung Mass
+Worst-case stability margin = 17.07607914 1/s
+All tested cases stable = 1

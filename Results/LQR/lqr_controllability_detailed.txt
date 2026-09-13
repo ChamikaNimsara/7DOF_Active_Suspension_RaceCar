@@ -1,0 +1,13 @@
+DETAILED LQR CONTROLLABILITY CHECK
+==================================
+
+Default controllability rank = 8 / 14
+Controllability condition number = 1.130435e+19
+
+Minimum PBH rank = 14 / 14
+PBH controllable = 1
+
+Scaled controllability rank = 9 / 14
+Scaled condition number = 2.321423e+17
+Minimum scaled PBH rank = 14 / 14
+Scaled PBH controllable = 1

@@ -1,0 +1,13 @@
+Metric,Value,Unit
+Peak Absolute Heave,2.39820265655923,mm
+Peak Absolute Pitch,0.163870961677509,deg
+Peak Heave Acceleration,12.2884709858218,m/s^2
+RMS Heave Acceleration,0.940961436953925,m/s^2
+Peak Pitch Acceleration,635.657852688838,deg/s^2
+RMS Pitch Acceleration,55.857621712667,deg/s^2
+Heave Settling Time,2.106,s
+Maximum Roll - Symmetric Bump,0,deg
+Body Resonance Frequency,2.84985750712464,Hz
+Wheel-Hop Frequency,23.748812559372,Hz
+Body Response Ratio,3.41523613982748,-
+Wheel Response Ratio,1.64711766412968,-

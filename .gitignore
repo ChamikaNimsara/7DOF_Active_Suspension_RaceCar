@@ -1,0 +1,28 @@
+# MATLAB autosave / temporary files
+*.asv
+*.autosave
+*.m~
+
+# Simulink cache / generated files
+*.slxc
+slprj/
+
+# MATLAB crash/log files
+matlab_crash_dump.*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+
+# Local archive
+Archive/
+
+# Local portfolio material
+Docs/Portfolio/
+
+# Local packaging instructions
+STEP_12_PROJECT_PACKAGING_INSTRUCTIONS.md

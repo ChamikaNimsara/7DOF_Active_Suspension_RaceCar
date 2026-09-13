@@ -1,0 +1,51 @@
+FINAL TUNED LQR - SPEED SENSITIVITY
+===================================
+
+Speed = 10.0 m/s (36.0 km/h)
+Bump duration = 0.050000 s
+Rear axle delay = 0.350000 s
+Peak heave = 4.00928 mm
+Peak pitch = 0.196656 deg
+RMS heave accel = 1.001162 m/s^2
+RMS pitch accel = 58.735987 deg/s^2
+Settling time = 1.62200 s
+Peak actuator force = 1276.89 N
+Mean RMS actuator force = 87.80 N
+Maximum saturation = 0.0000 %
+
+Speed = 20.0 m/s (72.0 km/h)
+Bump duration = 0.025000 s
+Rear axle delay = 0.175000 s
+Peak heave = 2.10566 mm
+Peak pitch = 0.111689 deg
+RMS heave accel = 0.973144 m/s^2
+RMS pitch accel = 56.627880 deg/s^2
+Settling time = 1.43100 s
+Peak actuator force = 937.90 N
+Mean RMS actuator force = 52.66 N
+Maximum saturation = 0.0000 %
+
+Speed = 30.0 m/s (108.0 km/h)
+Bump duration = 0.016667 s
+Rear axle delay = 0.116667 s
+Peak heave = 1.52709 mm
+Peak pitch = 0.077827 deg
+RMS heave accel = 0.783208 m/s^2
+RMS pitch accel = 45.314514 deg/s^2
+Settling time = 1.36400 s
+Peak actuator force = 696.63 N
+Mean RMS actuator force = 36.85 N
+Maximum saturation = 0.0000 %
+
+Speed = 40.0 m/s (144.0 km/h)
+Bump duration = 0.012500 s
+Rear axle delay = 0.087500 s
+Peak heave = 1.28653 mm
+Peak pitch = 0.056925 deg
+RMS heave accel = 0.633156 m/s^2
+RMS pitch accel = 36.946732 deg/s^2
+Settling time = 1.33100 s
+Peak actuator force = 542.16 N
+Mean RMS actuator force = 28.58 N
+Maximum saturation = 0.0000 %
+
