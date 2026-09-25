@@ -2,6 +2,40 @@
 
 This MATLAB/Simulink project develops a full-car 7-DOF vertical-dynamics model for a race vehicle, establishes and verifies its passive simulation baseline, integrates four active-suspension actuators, and compares optimized Skyhook control with a full-state LQR controller. The controllers are tuned and evaluated using symmetric bumps, an asymmetric left-side kerb, frequency-response testing, vehicle-speed variation, parameter uncertainty, closed-loop stability analysis, suspension working range, tyre-load indicators, and actuator demand. Within the evaluated test programme, the selected **Final Tuned LQR** provides the strongest overall compromise between body-motion control, robustness, settling and actuator effort; all results are simulation-based.
 
+## Engineering summary
+
+| | |
+|---|---|
+| **Objective** | Compare passive, Skyhook and LQR suspension control for a 7-DOF race-vehicle model. |
+| **Tools** | MATLAB, Simulink and Control System Toolbox. |
+| **Key result** | Against the passive baseline, the tuned LQR reduced peak body heave, pitch and roll across the evaluated bump/kerb tests while requiring 42–45% less peak actuator force than Skyhook. |
+| **Main limitation** | The bilateral linear tyre/contact model becomes non-physical during severe kerb unloading; negative predicted normal load is a model-validity warning, not measured tyre lift. |
+| **Next engineering step** | Add unilateral nonlinear tyre contact, then couple actuator dynamics and aerodynamic platform loading. |
+
+![7-DOF active-suspension system architecture](Docs/Figures/system_architecture.svg)
+
+The four road inputs excite the tyre and wheel-hop dynamics. Passive suspension and active actuators act in parallel between the four unsprung masses and the body’s heave, pitch and roll modes. Ideal simulated states close the feedback loop: Skyhook uses body velocity, while LQR uses all 14 states. Each actuator applies equal and opposite forces to the body and wheel; sensor and observer implementation remains future work.
+
+## Results at a glance
+
+### Passive vs Skyhook vs LQR
+
+Lower is better. The symmetric-bump benchmark makes the central trade-off visible: LQR gives the lowest peak heave and nearly the best settling, Skyhook gives the best pitch and acceleration metrics, and both active strategies improve body control relative to passive suspension.
+
+![Passive, Skyhook and LQR symmetric-bump comparison](Plots/Final/final_controller_bump_benchmark.png)
+
+### Final LQR headline improvements
+
+The selected LQR reduces every reported peak body-motion and settling metric relative to the passive baseline in the bump and asymmetric-kerb tests. Acceleration is intentionally excluded from this improvement chart because LQR slightly worsened the symmetric-bump RMS acceleration metrics.
+
+![Final tuned LQR improvements relative to passive suspension](Plots/Final/final_validation_lqr_improvements.png)
+
+### High-speed kerb model boundary
+
+At 144 km/h, the kerb-side tyre-load estimates briefly cross zero even though peak actuator utilization remains only 21.865%. This result identifies a limitation of the bilateral linear tyre model, not proof of physical tyre lift or controller failure.
+
+![Predicted tyre normal loads during the 144 km/h asymmetric-kerb test](Plots/Final/lqr_working_range_tyre_load.png)
+
 ## Key engineering objectives
 
 - Reduce sprung-mass heave, pitch and roll.
@@ -80,8 +114,6 @@ The Simulink controller selector routes either Skyhook or LQR commands through t
 
 Relative to passive suspension, the Final Tuned LQR reduced peak heave by **12.20%**, peak pitch by **31.84%**, and settling time by **32.05%**. It did not improve the two RMS acceleration metrics: heave acceleration rose by about 3.4% and pitch acceleration by about 1.4%. This is an explicit tuning trade-off, not an omitted result.
 
-![Normalized symmetric-bump validation summary](Plots/Final/final_validation_bump_summary.png)
-
 ### Asymmetric kerb
 
 | Metric | Passive | Optimized Skyhook | Final Tuned LQR |
@@ -94,8 +126,6 @@ Relative to passive suspension, the Final Tuned LQR reduced peak heave by **12.2
 | Peak actuator force [N] | 0 | 1903.0 | **1109.1** |
 
 Against the passive baseline, the Final Tuned LQR reduced peak heave by **13.25%**, peak pitch by **32.49%**, peak roll by **28.06%**, and roll settling time by **29.07%**.
-
-![Normalized asymmetric-kerb validation summary](Plots/Final/final_validation_kerb_summary.png)
 
 ### Robustness, stability and working range
 
@@ -124,11 +154,15 @@ At 144 km/h in the asymmetric-kerb test, maximum suspension deflection was **20.
 
 </details>
 
-## Engineering interpretation
+## Physical engineering interpretation
 
-The Final Tuned LQR was selected because it combines improved heave, pitch, roll and settling with substantially lower actuator demand than optimized Skyhook. Skyhook remains better in several pitch and acceleration metrics, particularly in the symmetric-bump test, but required roughly 83% more peak force than LQR for the bump and 72% more for the kerb. LQR also retained a slightly lower mean sensitivity across the tested parameter variations.
+- **Why LQR reduces body motion:** full-state feedback coordinates all four actuator forces using the coupled heave, pitch, roll and wheel-hop states. Penalizing body displacement and attitude lets the controller oppose the generalized body modes instead of reacting to each corner independently. The chosen weighting is deliberately moderate, so it captures most of the body-control benefit without pursuing the small additional gains that required much larger forces in the Q/R sweep.
+- **Why Skyhook wins some acceleration metrics:** the Skyhook law acts directly on body velocity and therefore adds effective damping to the sprung-mass modes. In these tests that simple damping action suppresses some oscillatory acceleration and pitch more effectively than the selected LQR cost, which prioritizes the combined body-motion, settling and force compromise rather than minimum acceleration alone.
+- **Why more control authority can increase harshness:** stronger or faster corrective forces can reduce low-frequency displacement while transmitting sharper force changes through the suspension. Acceleration is sensitive to those rapid changes, so tighter platform control does not automatically improve ride or vibration metrics. The slight LQR RMS-acceleration penalty is consistent with that trade-off.
+- **Why tyres can unload without actuator saturation:** tyre normal load depends on road geometry, unsprung-mass inertia, suspension force and load transfer—not just available actuator force. A short high-speed kerb creates large wheel and suspension velocities; the wheel can therefore move toward rebound and unload while the actuator remains far below its ±3000 N force limit.
+- **Why the 144 km/h result is a model warning:** the tyre is represented as a bilateral linear spring, so it can mathematically generate a tensile road-contact force after predicted load reaches zero. A real tyre cannot pull on the road. The negative values therefore mark the point where unilateral contact logic is required; they do not by themselves establish physical wheel lift, lost grip or controller instability.
 
-The evaluated actuator capacity is not the limiting concern: all controller and operating-envelope cases remained comfortably below ±3000 N. The critical limitation is wheel/tyre behaviour during severe high-speed kerb excitation, where the linear tyre model predicts brief unloading beyond its physically valid contact range. The result motivates a unilateral, nonlinear tyre-contact model before making claims about grip or track performance.
+The Final Tuned LQR was selected because it combines improved heave, pitch, roll and settling with substantially lower actuator demand than optimized Skyhook. Skyhook required roughly 83% more peak force than LQR for the bump and 72% more for the kerb, while LQR retained slightly lower mean sensitivity across the tested parameter variations. The evidence supports LQR as the best overall compromise in the defined simulation programme—not as the best controller for every metric.
 
 ## Repository structure
 

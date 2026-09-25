@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850" role="img" aria-labelledby="title desc">
+  <title id="title">7-DOF suspension: mechanical plant and feedback control</title>
+  <desc id="desc">Road inputs excite linear tyres and four wheel-hop masses. Passive suspension and active actuators connect wheels to the sprung body's heave, pitch and roll modes in parallel. Ideal simulated states feed passive, Skyhook or LQR control. Commands are limited to plus or minus 3000 N per corner; actuator forces act equally and oppositely on body and wheels. An opaque canvas preserves contrast in light and dark themes.</desc>
+  <defs>
+    <marker id="purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 9 5 1 9Z" fill="#6d28d9"/></marker>
+    <marker id="green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 9 5 1 9Z" fill="#047857"/></marker>
+    <marker id="slate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M1 1 9 5 1 9Z" fill="#334155"/></marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #172033; }
+      .heading { font-size: 29px; font-weight: 700; }
+      .section { font-size: 16px; font-weight: 700; letter-spacing: 1.4px; fill: #475569; }
+      .label { font-size: 23px; font-weight: 700; }
+      .copy { font-size: 19px; fill: #334155; }
+      .note { font-size: 17px; fill: #475569; }
+      .center { text-anchor: middle; }
+      .mechanical { fill: none; stroke: #334155; stroke-width: 3; }
+      .state { fill: none; stroke: #6d28d9; stroke-width: 3; stroke-dasharray: 8 6; marker-end: url(#purple); }
+      .command { fill: none; stroke: #047857; stroke-width: 3; marker-end: url(#green); }
+    </style>
+  </defs>
+  <!-- Explicit opaque background keeps every label and connector readable in either README theme. -->
+  <rect width="1100" height="850" fill="#ffffff"/>
+  <rect x="1" y="1" width="1098" height="848" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="38" y="49" class="heading">7-DOF active suspension</text>
+  <text x="38" y="80" class="copy">Three body modes + four wheel-hop modes · four independently controlled corners</text>
+  <text x="64" y="124" class="section">MECHANICAL PLANT</text>
+  <text x="708" y="124" class="section">FEEDBACK CONTROL</text>
+  <!-- Two parallel mechanical force paths; these are couplings, not signal arrows. -->
+  <path d="M184 264 V322 M184 430 V488 M464 264 V322 M464 430 V488" class="mechanical"/>
+  <path d="M184 614 V573 M344 657 H304" class="mechanical" marker-end="url(#slate)"/>
+  <!-- Route wheel feedback around the plant to avoid crossing force connections. -->
+  <path d="M64 530 H38 V147 H868 V174" class="state"/>
+  <text x="405" y="139" class="note center" style="fill:#6d28d9">Wheel positions + velocities</text>
+  <path d="M584 214 H708" class="state"/>
+  <text x="645" y="200" class="note center" style="fill:#6d28d9">Body states</text>
+  <path d="M868 308 V372" class="state"/>
+  <text x="885" y="346" class="note" style="fill:#6d28d9">Feedback</text>
+  <path d="M868 540 V600" class="command"/>
+  <text x="885" y="576" class="note" style="fill:#047857">4 commands</text>
+  <path d="M708 650 H648 V376 H584" class="command"/>
+  <rect x="64" y="174" width="520" height="90" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="324" y="208" class="label center">Sprung body · 3 DOF</text>
+  <text x="324" y="241" class="copy center">Heave zₛ · pitch θ · roll φ</text>
+  <rect x="64" y="322" width="240" height="108" rx="12" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="184" y="356" class="label center">Passive suspension</text>
+  <text x="184" y="387" class="copy center">Springs + dampers</text>
+  <text x="184" y="412" class="note center">Front / rear anti-roll stiffness</text>
+  <rect x="344" y="322" width="240" height="108" rx="12" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+  <text x="464" y="356" class="label center">4 active actuators</text>
+  <text x="464" y="387" class="copy center">Forces at FL / FR / RL / RR</text>
+  <text x="464" y="412" class="note center">Equal + opposite reactions</text>
+  <text x="324" y="285" class="note center">Passive + active forces</text>
+  <text x="324" y="308" class="note center">act in parallel</text>
+  <rect x="64" y="488" width="520" height="85" rx="12" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+  <text x="324" y="522" class="label center">Unsprung masses · 4 DOF</text>
+  <text x="324" y="552" class="copy center">Wheel hop at FL / FR / RL / RR</text>
+  <rect x="64" y="614" width="240" height="86" rx="12" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="184" y="648" class="label center">4 linear tyres</text>
+  <text x="184" y="679" class="copy center">Vertical stiffness kₜ</text>
+  <rect x="344" y="614" width="240" height="86" rx="12" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="464" y="648" class="label center">4 road inputs</text>
+  <text x="464" y="679" class="copy center">Bump / asymmetric kerb</text>
+  <rect x="708" y="174" width="320" height="134" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="868" y="209" class="label center">States / sensing</text>
+  <text x="868" y="242" class="copy center">7 displacements + 7 velocities</text>
+  <text x="868" y="272" class="note center">Ideal simulated states available;</text>
+  <text x="868" y="295" class="note center">sensor / observer design is future work</text>
+  <rect x="708" y="372" width="320" height="168" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="868" y="408" class="label center">Controller selector</text>
+  <text x="730" y="446" class="copy">Passive</text><text x="843" y="446" class="copy">→ zero active force</text>
+  <text x="730" y="480" class="copy">Skyhook</text><text x="843" y="480" class="copy">→ body velocity</text>
+  <text x="730" y="514" class="copy">LQR</text><text x="843" y="514" class="copy">→ full state, u = −Kx</text>
+  <rect x="708" y="600" width="320" height="100" rx="12" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+  <text x="868" y="637" class="label center">Actuator force limits</text>
+  <text x="868" y="671" class="copy center">±3000 N per corner</text>
+  <path d="M38 738 H1062" stroke="#cbd5e1" stroke-width="2"/>
+  <path d="M64 767 H110" class="mechanical"/><text x="125" y="774" class="note">Mechanical coupling</text>
+  <path d="M382 767 H428" class="state"/><text x="443" y="774" class="note">State feedback</text>
+  <path d="M708 767 H754" class="command"/><text x="769" y="774" class="note">Actuator commands</text>
+  <text x="64" y="815" class="note">Model boundary: linear tyre contact · ideal force actuation · no sensor noise or delay</text>
+</svg>
