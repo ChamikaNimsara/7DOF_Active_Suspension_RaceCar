@@ -259,6 +259,7 @@ Several analysis stages consume MAT files created by earlier stages, and respons
 
 ## Project documentation
 
+- [One-page engineering brief](Docs/engineering_brief.md)
 - [Final engineering summary](Docs/Technical_Report/final_engineering_summary.md)
 - [Final showcase figures](Plots/Final/README.md)
 - [Repository completion checklist](Docs/repository_checklist.md)
